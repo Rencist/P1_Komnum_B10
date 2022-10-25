@@ -1,4 +1,4 @@
-# P1_Komnum_E10
+# P1_Komnum_B10
 
 ## Nama Anggota Kelompok 10 :
 
@@ -16,12 +16,12 @@ Input yang diminta adalah `function`, `lower root boundary`, `upper root boundar
 
 <br >
 
-![image](https://user-images.githubusercontent.com/91055469/197848859-9a62a1c3-b6ed-46c1-861a-afcdebc2d955.png)
+![image](https://user-images.githubusercontent.com/91055469/197852770-035ab0c7-1754-48ff-aa7a-cd504360c12d.png)
 
-Pertama ada fungsi `eval()` yang berfungsi untuk mengubah fungsi input tadi dari string menjadi python expression. Lalu ada array `data` yang menampung semua hasil iterasi bolzano. Selanjutnya akan masuk loop dengan total iterasi yang diinputkan, pada loop ini akan dilakukan perhitungan bolzano, kemudian hasilnya akan di append kedalam array data. Setelah loop selesai maka array data akan dioutputkan untuk tiap iterasi dan di outputkan juga `lower root boundary` dan `upper root boundary` setelah iterasi.
+Pertama ada fungsi `eval()` yang berfungsi untuk mengubah fungsi input tadi dari string menjadi python expression. Lalu ada array `data` yang menampung semua hasil iterasi bolzano. Selanjutnya akan masuk loop dengan total iterasi yang diinputkan, pada loop ini akan dilakukan perhitungan bolzano, kemudian hasilnya akan di append kedalam array data. Setelah loop selesai maka array data akan dioutputkan untuk tiap iterasi dan di outputkan juga `lower root boundary`, `upper root boundary`, dan `root` setelah iterasi.
 
 <br >
 
 Contoh Input dan Output :
 
-![image](https://user-images.githubusercontent.com/91055469/197850548-05d6cb41-ef0f-4822-b541-f1b08e25a698.png)
+![image](https://user-images.githubusercontent.com/91055469/197852694-bd637101-594f-4d17-9e24-fdef5cd74c0c.png)
