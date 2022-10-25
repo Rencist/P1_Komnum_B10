@@ -4,6 +4,7 @@ from tabulate import tabulate
 
 def bolzano_method(func, a, b, iteration):
     i = 1
+    ite = int(iteration)
     def f(x):
         f = eval(func)
         return f 
@@ -25,12 +26,14 @@ def bolzano_method(func, a, b, iteration):
         else:
             print("Error happens")
             quit()
+        ans = (b+a)/2
         iteration -= 1
 
     
     print(tabulate(data, headers="firstrow", tablefmt="github"))
 
     print(f"The lower boundary is {a} and upper boundary is {b}")
+    print(f"The root after {ite} iteration is {ans}")
 
 
 
