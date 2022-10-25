@@ -1,4 +1,4 @@
-# P1_Komnum_E10
+# P1_Komnum_B10
 
 ## Nama Anggota Kelompok 10 :
 
