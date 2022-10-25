@@ -18,7 +18,7 @@ Input yang diminta adalah `function`, `lower root boundary`, `upper root boundar
 
 ![image](https://user-images.githubusercontent.com/91055469/197852770-035ab0c7-1754-48ff-aa7a-cd504360c12d.png)
 
-Pertama ada fungsi `eval()` yang berfungsi untuk mengubah fungsi input tadi dari string menjadi python expression. Lalu ada array `data` yang menampung semua hasil iterasi bolzano. Selanjutnya akan masuk loop dengan total iterasi yang diinputkan, pada loop ini akan dilakukan perhitungan bolzano, kemudian hasilnya akan di append kedalam array data. Setelah loop selesai maka array data akan dioutputkan untuk tiap iterasi dan di outputkan juga `lower root boundary`, `upper root boundary`, dan `root` setelah iterasi.
+Pertama ada fungsi `eval()` yang berfungsi untuk mengubah fungsi input tadi dari string menjadi python expression. Lalu ada array `data` yang menampung semua hasil iterasi bolzano. Selanjutnya akan masuk loop dengan total iterasi yang diinputkan, pada loop ini akan dilakukan perhitungan bolzano. pertama `a` merupakan lower root boundary, `b` merupakan upper root boundary, dan `c` adalah hasil dari (a+b)/2. Selanjutnya masuk ke percabangan yang mana jika `f(c) * f(a) < 0` maka `b = c` atau jika `f(c) * f(b) < 0` maka `a = c`. Proses ini dilanjut hingga iterasi selesai, kemudian hasil pada tiap iterasi akan di append kedalam array data. Setelah loop selesai maka array data akan dioutputkan untuk tiap iterasi dan di outputkan juga `lower root boundary`, `upper root boundary`, dan `root` setelah iterasi.
 
 <br >
 
