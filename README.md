@@ -2,9 +2,11 @@
 
 ## Nama Anggota Kelompok 10 :
 
-- M. Dafian Zaki Akhdan &ensp;&ensp;&ensp;&ensp;&nbsp; - 5025211108
-- Dewangga Dika Darmawan &nbsp; - 5025211109
-- Urdhanaka Aptanagi &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp; - 5025211123
+|     | Nama                   | NRP        |
+| --- | ---------------------- | ---------- |
+| 1   | M. Dafian Zaki Akhdan  | 5025211108 |
+| 2   | Dewangga Dika Darmawan | 5025211109 |
+| 3   | Urdhanaka Aptanagi     | 5025211123 |
 
 <br >
 
