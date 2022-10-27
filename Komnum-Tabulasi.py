@@ -28,25 +28,23 @@ def bolzano_method(func, a, b, iteration):
             quit()
         ans = (b+a)/2
         iteration -= 1
-
     
     print(tabulate(data, headers="firstrow", tablefmt="github"))
 
     print(f"The lower boundary is {a} and upper boundary is {b}")
     print(f"The root after {ite} iteration is {ans}")
 
-
-
 function = input("function : ")
 a = input("lower root boundary: ")
 b = input("upper root boundary: ")
 iteration = input("how many iteration: ")
 
+bolzano_method(function, float(a), float(b), float(iteration))
+
 x = np.linspace(-10,10,num = 1000)
 y = eval(function)
+plt.grid(visible=True)
 plt.plot(x, y)
 plt.show()
 plt.xlabel('X Axis')
 plt.ylabel('Y Axis')
-
-bolzano_method(function, float(a), float(b), float(iteration))
