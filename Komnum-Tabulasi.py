@@ -41,7 +41,7 @@ iteration = input("how many iteration: ")
 
 bolzano_method(function, float(a), float(b), float(iteration))
 
-x = np.linspace(-10,10,num = 1000)
+x = np.linspace(-100,100,num = 1000)
 y = eval(function)
 plt.grid(visible=True)
 plt.plot(x, y)
